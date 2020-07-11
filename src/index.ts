@@ -1,4 +1,5 @@
-import {ApplicationConfig, SrugApplication} from './application';
+import {ApplicationConfig} from '@loopback/core';
+import {SrugApplication} from './application';
 
 export * from './application';
 

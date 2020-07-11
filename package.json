@@ -45,6 +45,8 @@
     "!*/__tests__"
   ],
   "dependencies": {
+    "@loopback/authentication": "^4.2.9",
+    "@loopback/authorization": "^0.6.2",
     "@loopback/boot": "^2.3.3",
     "@loopback/core": "^2.8.0",
     "@loopback/openapi-v3": "^3.4.3",
@@ -52,7 +54,15 @@
     "@loopback/rest": "^5.1.1",
     "@loopback/rest-explorer": "^2.2.4",
     "@loopback/service-proxy": "^2.3.2",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/lodash": "^4.14.157",
+    "bcryptjs": "^2.4.3",
+    "http-errors": "^1.8.0",
+    "isemail": "^3.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
     "loopback-connector-mysql": "^5.4.3",
+    "mysql-promise": "^5.0.0",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
